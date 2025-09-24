@@ -161,7 +161,7 @@ public class SnackRowMapper implements RowMapper<Snack> {
         s.snacknr = rs.getInt("snacknr");
         s.snacknaam = rs.getString("snacknaam");
         s.calorieen = rs.getInt("calorieen");
-        return d;
+        return s;
     }
 }
 ```
